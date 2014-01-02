@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Alaa">
 
     <title>commutr</title>
 
@@ -12,213 +12,84 @@
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Add custom CSS here -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	 <link href="css/custom.css" rel="stylesheet">
+	 
+	 <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+	 <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
+	 <!--[if gte IE 9]>
+	  <style type="text/css">
+		.gradient {
+		   filter: none;
+		}
+	  </style>
+	<![endif]-->
   </head>
 
 
   <body>
-<!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">COMMUTR</a>
+	<div class="container">
+		<nav class="navbar navbar-default" role="navigation">
+		  <!-- Brand and toggle get grouped for better mobile display -->
+		  <div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			  <span class="sr-only">Toggle navigation</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Alaa Awad</a>
+		  </div>
+
+		  <!-- Collect the nav links, forms, and other content for toggling -->
+		  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+				<form class="navbar-form navbar-left" role="search">
+				<div class="form-group">
+				<input type="text" class="form-control" placeholder="Search">
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+				</li>
+			</ul>
+		  </div><!-- /.navbar-collapse -->
+		</nav>
+
+		
+		<div class="jumbotron">
+		
+		</div>
+		
+		<!-- row of projects -->
+      <div class="row">
+        <div class="col-lg-4" >   
+		  <div id="project_img">
+		  <a href="commutr.html"><img class="img-responsive"  src="img/proj_commutr.jpg" alt="" /></a>
+		  <hr>
+		  <p>commutr is an application made for iOS utilizing the new MultiPeer Connectivity features of iOS7. It allows for communication, music streaming, and file sharing between passengers in trains.</p>
+		  <hr>
+		  </div>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-			<li><a href="#top">home</a></li>
-			<li><a href="#about">download</a></li>
-			<li><a href="#services">features</a></li>
-			<li><a href="#contact">contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-
-<!--Main Content -->
-    <!-- Side Menu -->
-    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <div id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-        <li class="sidebar-brand"><a href="#top">COMMUTR</a></li>
-        
-      </ul>
-    </div>
-    <!-- /Side Menu -->
-  
-    <!-- Full Page Image Header Area -->
-    <div id="top" class="header">
-      <div class="vert-text">
-        <h1 style="color:white;text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;">COMMUTR</h1>
-        <h3 style="color:white; text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;"><em>Socialize</em> your commute, and start <em>Enjoying</em> the ride</h3>
-        <a href="#about" class="btn btn-default btn-lg">Find Out More</a>
-      </div>
-    </div>
-    <!-- /Full Page Image Header Area -->
-  
-    <!-- Intro -->
-    <div id="about" class="intro">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <h2>Download Commutr</h2>
-            <p class="lead">Stop commuting alone and start commuting together with the <a href="https://itunes.apple.com/us/app/keynote/id361285480?mt=8">commutr app</a>. </p>
-            <hr>
-              <div style="position: relative; left: 0; top: 0;">
-
-                        <img src="img/commutr-iphone-shadow.png" 
-                        data-at2x="img/commutr-iphone-shadow.png@2x.png"
-                        style="position: relative; top: 0; left: 0;" class="img-responsive" />
-
-                        <img src="img/commutr-iphone.png" 
-                        data-at2x="img/commutr-iphone.png@2x.png"
-                        style="position: absolute; top: -10px; left: -20px;" class="img-responsive" />
-                        </div>
-                        
-                    </div>
-          </div>
+        <div class="col-lg-4" >   
+		  <div id="project_img">
+		  <a href="nysenate_map.html"><img class="img-responsive"  src="img/nysenate_map.jpg" alt="" /></a>
+		  <hr>
+		  <p>canvass advisory system side project required data visualizations. This map was created using d3.js along with US census data to create a map of ny state senate districts.</p>
+		  <hr>
+		  </div>
         </div>
-      </div>
-    </div>
-    <!-- /Intro -->
-  
-    <!-- Services -->
-    <div id="services" class="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-md-offset-4 text-center">
-            <h2>Features</h2>
-            <hr>
-          </div>
+		<div class="col-lg-4" >   
+		  <div id="project_img">
+		  <a href=""><img class="img-responsive"  src="img/bg.jpg" alt="" /></a>
+		  <hr>
+		  <p>commutr is an application made for iOS utilizing the new MultiPeer Connectivity features of iOS7. It allows for communication, music streaming, and file sharing between passengers in trains.</p>
+		  <hr>
+		  </div>
         </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-2 text-center">
-            <div class="service-item">
-              <i class="service-icon fa fa-comment-o"></i>
-              <h4>Passenger Chatting</h4>
-              <p>No internet connection needed. Just turn on wifi and/or bluetooth, search for a nearby commutr, and start chatting</p>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
-            <div class="service-item">
-              <i class="service-icon fa fa-music"></i>
-              <h4>Music Sharing</h4>
-              <p>Tap into a nearby commutr's music stream and you can start listening to what they're listening to</p>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
-            <div class="service-item">
-              <i class="service-icon fa fa-camera"></i>
-              <h4>Photo Sharing</h4>
-              <p>Share photos with other commutrs on the same train.</p>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
-            <div class="service-item">
-              <i class="service-icon fa fa-gamepad"></i>
-              <h4>Games</h4>
-              <p>Like to play games on the train? Face off with other commutrs.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /Services -->
-
-    <!-- Callout -->
-    <div class="callout">
-      <div class="vert-text">
-        <h1>Never ride alone again</h1>
-      </div>
-    </div>
-    <!-- /Callout -->
-
-
-    <!-- Call to Action -->
-    <div class="call-to-action">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <h3>Embrace the future of socialized commuting</h3>
-            <a href="https://itunes.apple.com/us/app/keynote/id361285480?mt=8" class="btn btn-lg btn-primary">Download Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /Call to Action -->
-
-    <!-- Map -->
-    <div id="contact" class="map">
-      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=114+North+7th+Street,+Brooklyn,+NY&amp;aq=0&amp;oq=114+north+7th+stret&amp;sll=40.697488,-73.979681&amp;sspn=1.822019,2.469177&amp;ie=UTF8&amp;hq=&amp;hnear=114+N+7th+St,+Brooklyn,+Kings,+New+York+11249&amp;t=m&amp;z=14&amp;iwloc=A&amp;ll=40.718826,-73.959697&amp;output=embed"></iframe>
-    </div>
-    <!-- /Map -->
-    
-	
-
- <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <ul class="list-inline">
-              <li><i class="fa fa-facebook fa-3x"></i></li>
-              <li><i class="fa fa-twitter fa-3x"></i></li>
-              <li><i class="fa fa-dribbble fa-3x"></i></li>
-            </ul>
-            <div class="top-scroll">
-              <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
-            </div>
-            <hr>
-            <p>Copyright &copy; Alaa Awad 2013</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- /Footer -->
-
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-
-    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
-    <script>
-        $("#menu-close").click(function (e) {
-            e.preventDefault();
-            $("#sidebar-wrapper").toggleClass("active");
-        });
-    </script>
-    <script>
-        $("#menu-toggle").click(function (e) {
-            e.preventDefault();
-            $("#sidebar-wrapper").toggleClass("active");
-        });
-    </script>
-    <script>
-        $(function () {
-            $('a[href*=#]:not([href=#])').click(function () {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-                  || location.hostname == this.hostname) {
-
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
-                    }
-                }
-            });
-        });
-    </script>
-
+		
+	</div>
   </body>
 
 </html>
