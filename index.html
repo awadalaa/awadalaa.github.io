@@ -14,6 +14,7 @@
       body {
         height: 100%;
         /* The html and body elements cannot have any padding or margin. */
+		background: url('./img/swirl.png') repeat 0 0;
       }
 
       /* Wrapper for page content to push down footer */
@@ -50,12 +51,15 @@
       -------------------------------------------------- */
       /* Not required for template or sticky footer method. */
 
-      .container {
-        width: auto;
-        max-width: 960px;
+      #wrap > .container {
+        padding-top: 60px;
       }
       .container .credit {
         margin: 20px 0;
+      }
+
+      code {
+        font-size: 80%;
       }
 
     </style>
@@ -81,6 +85,8 @@
 
 
   <body>
+  <!-- Part 1: Wrap all page content here -->
+    <div id="wrap">
 	<div class="container">
 		<nav class="navbar navbar-default" role="navigation">
 		  <!-- Brand and toggle get grouped for better mobile display -->
@@ -135,7 +141,7 @@
         </div>
 		<div class="col-lg-4" >   
 		  <div id="project_img">
-		  <a href=""><img class="img-responsive"  src="img/bg.jpg" alt="" /></a>
+		  <a href=""><img class="img-responsive"  src="img/bgg.jpg" alt="" /></a>
 		  <hr>
 		  <p>commutr is an application made for iOS utilizing the new MultiPeer Connectivity features of iOS7. It allows for communication, music streaming, and file sharing between passengers in trains.</p>
 		  <hr>
@@ -145,9 +151,10 @@
 	</div>
 	 <div id="push"></div>
     </div>	
+	</div>
 	<div id="footer">
       <div class="container">
-        <p class="muted credit">Developed By <a href="http://awadalaa.github.io">Alaa Awad</a>.</p>
+        <p class="muted credit text-right">Developed By <a href="http://awadalaa.github.io">Alaa Awad</a>.</p>
       </div>
     </div>
   </body>
