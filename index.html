@@ -1,162 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="Alaa">
-<style type="text/css">
+    <meta name="author" content="">
 
-      /* Sticky footer styles
-      -------------------------------------------------- */
+    <title>Alaa Awad</title>
 
-      html,
-      body {
-        height: 100%;
-        /* The html and body elements cannot have any padding or margin. */
-		background: url('./img/swirl.png') repeat 0 0;
-      }
+    <!-- Bootstrap Core CSS -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
-      /* Wrapper for page content to push down footer */
-      #wrap {
-        min-height: 100%;
-        height: auto !important;
-        height: 100%;
-        /* Negative indent footer by it's height */
-        margin: 0 auto -60px;
-      }
+    <!-- Fonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-      /* Set the fixed height of the footer here */
-      #push,
-      #footer {
-        height: 60px;
-      }
-      #footer {
-        background-color: #f5f5f5;
-      }
+    <!-- Custom Theme CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
 
-      /* Lastly, apply responsive CSS fixes as necessary */
-      @media (max-width: 767px) {
-        #footer {
-          margin-left: -20px;
-          margin-right: -20px;
-          padding-left: 20px;
-          padding-right: 20px;
-        }
-      }
+</head>
 
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Alaa</span> Awad
+                </a>
+            </div>
 
-      /* Custom page CSS
-      -------------------------------------------------- */
-      /* Not required for template or sticky footer method. */
-
-      #wrap > .container {
-        padding-top: 60px;
-      }
-      .container .credit {
-        margin: 20px 0;
-      }
-
-      code {
-        font-size: 80%;
-      }
-
-    </style>
-    <title>commutr</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Add custom CSS here -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	 <link href="css/custom.css" rel="stylesheet">
-	 
-	 <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
-	 <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
-	 <!--[if gte IE 9]>
-	  <style type="text/css">
-		.gradient {
-		   filter: none;
-		}
-	  </style>
-	<![endif]-->
-  </head>
-
-
-  <body>
-  <!-- Part 1: Wrap all page content here -->
-    <div id="wrap">
-	<div class="container">
-		<nav class="navbar navbar-default" role="navigation">
-		  <!-- Brand and toggle get grouped for better mobile display -->
-		  <div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-			  <span class="sr-only">Toggle navigation</span>
-			  <span class="icon-bar"></span>
-			  <span class="icon-bar"></span>
-			  <span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#">Alaa Awad</a>
-		  </div>
-
-		  <!-- Collect the nav links, forms, and other content for toggling -->
-		  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-			<ul class="nav navbar-nav navbar-right">
-				<li>
-				<form class="navbar-form navbar-left" role="search">
-				<div class="form-group">
-				<input type="text" class="form-control" placeholder="Search">
-				</div>
-				<button type="submit" class="btn btn-default">Submit</button>
-				</form>
-				</li>
-			</ul>
-		  </div><!-- /.navbar-collapse -->
-		</nav>
-
-		
-		<div class="jumbotron">
-		
-		</div>
-		
-		<!-- row of projects -->
-      <div class="row">
-        <div class="col-lg-4" >   
-		  <div id="project_img">
-		  <a href="commutr.html"><img class="img-responsive"  src="img/proj_commutr.jpg" alt="" /></a>
-		  <hr>
-		  <p>commutr is an application made for iOS utilizing the new MultiPeer Connectivity features of iOS7. It allows for communication, music streaming, and file sharing between passengers in trains.</p>
-		  <hr>
-		  </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div class="col-lg-4" >   
-		  <div id="project_img">
-		  <a href="nysenate_map.html"><img class="img-responsive"  src="img/nysenate_map.jpg" alt="" /></a>
-		  <hr>
-		  <p>canvass advisory system side project required data visualizations. This map was created using d3.js along with US census data to create a map of ny state senate districts.</p>
-		  <hr>
-		  </div>
+        <!-- /.container -->
+    </nav>
+
+    <section class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">ALAA AWAD</h1>
+                        <p class="intro-text">DBA by day. Developer by night.</p>
+						
+                        <div class="page-scroll">
+                            <a href="#about" class="btn btn-circle">
+                                <i class="fa fa-angle-double-down animated"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-		<div class="col-lg-4" >   
-		  <div id="project_img">
-		  <a href=""><img class="img-responsive"  src="img/bgg.jpg" alt="" /></a>
-		  <hr>
-		  <p>commutr is an application made for iOS utilizing the new MultiPeer Connectivity features of iOS7. It allows for communication, music streaming, and file sharing between passengers in trains.</p>
-		  <hr>
-		  </div>
+    </section>
+
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Me</h2>
+                <p>I'm a full stack developer with several years of experience. I'm currently working for a boutique investment bank as a dba and lead developer.</p>
+                <p>I'm a perpetual learning machine with a great interest in new technologies.</p>
+            </div>
         </div>
-		
-	</div>
-	 <div id="push"></div>
-    </div>	
-	</div>
-	<div id="footer">
-      <div class="container">
-        <p class="muted credit text-right">Developed By <a href="http://awadalaa.github.io">Alaa Awad</a>.</p>
-      </div>
-    </div>
-  </body>
+    </section>
+
+    <section id="portfolio" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Portofolio</h2>
+					<p>Projects I've been involved with have ranged from solar powered embedded systems to interactive voice response systems. But mostly, I stick to web and mobile development.</p>
+                    <!-- row of projects -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Alaa</h2>
+                <p>Feel free to <a href="mailto:alaa.awad.mail@gmail.com">email</a> to me anytime. Avaliable for contract or full time positions. Based in Brooklyn.</p>
+                <ul class="list-inline banner-social-buttons">
+                    <li><a href="https://github.com/awadalaa/" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+					<li><a href="https://stackoverflow.com/users/2044266/alaa-awad/" class="btn btn-default btn-lg"><i class="fa fa-stack-exchange fa-fw"></i> <span class="network-name">Stack Overflow</span></a>
+                    </li>
+                    <li><a href="http://www.linkedin.com/pub/alaa-awad/7/36/11a" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div id="map"></div>
+
+    <!-- Core JavaScript Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - You will need to use your own API key to use the map feature -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlAtvYaaiWqA_x1ZpJlNgv8D_Brb4Fics&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+	<!--[if !(lt IE 8)]><!-->
+   <script type="text/javascript">
+     (function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=document.location.protocol+"//d1agz031tafz8n.cloudfront.net/thedaywefightback.js/widget.min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+   </script>
+	<!--<![endif]-->
+</body>
 
 </html>
