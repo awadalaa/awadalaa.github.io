@@ -140,6 +140,26 @@ a:focus {
     vertical-align: middle;
 }
 
+.introsquid {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/intro-bg1.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.introsquid-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .brand-heading {
     font-size: 40px;
 }
@@ -150,6 +170,11 @@ a:focus {
 
 @media(min-width:767px) {
     .intro {
+        height: 100%;
+        padding: 0;
+    }
+	
+	.introsquid {
         height: 100%;
         padding: 0;
     }
