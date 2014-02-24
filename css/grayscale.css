@@ -443,3 +443,7 @@ img::-moz-selection {
 	color: #333;
 	margin: 0;
 }
+
+#content:hover .pin:not(:hover) {
+	opacity: 0.4;
+}
