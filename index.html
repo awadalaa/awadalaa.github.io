@@ -20,7 +20,8 @@
 
     <!-- Custom Theme CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
-
+    
+  <script src="js/modernizr-2.5.3.min.js"></script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
@@ -78,42 +79,68 @@
     
     
     <section id="portfolio" class="content-section text-center">
-        <div class="container content-section">
-            <div class="text-center">
+        <div class="content-section">
+        <div class="text-center">
             <h2>Portfolio</h2>
+        </div>
+            
+        <div id="content" class="clearfix">
+            
+            <div class="item">
+              <a href="commutr.html">
+            <div class="pin">
+                <img src="img/portfolio/proj_commutr.jpg" />
+                <p>commutr is an application made for iOS utilizing the new MultiPeer Connectivity features of iOS7. It allows for communication, music streaming, and file sharing between passengers in trains.</p>
             </div>
-        <div id="wrapper">
-            <div id="columns">
-                <a href="commutr.html">
+            </a>
+            </div>
+              
+            
+            <div class="item featured">
+              <a href="https://github.com/awadalaa/kinect-ribbon-tuio"/>
                 <div class="pin">
-                    <img src="img/portfolio/proj_commutr.jpg" />
-                    <p>commutr is an application made for iOS utilizing the new MultiPeer Connectivity features of iOS7. It allows for communication, music streaming, and file sharing between passengers in trains.</p>
+                    <img src="img/portfolio/proj_kinect.png" />
+                    <p>a side project using the kinect to track hand gestures to draw a ribbon path.  The application was projected on a LED tile wall in stockholm</p>
                 </div>
                 </a>
+            </div>
+        
             
+            <div class="item  featured">
                 <div class="pin">
                     <img src="img/portfolio/proj_squidvent.jpg" />
                     <p>squidvent is an event planning web and iOS application developed as a side project and will be available mid 2014.</p>
                 </div>
-                
-                
-                <a href="http://escreen.se">
+            </div>
+            
+            <div class="item">
+               <a href="https://github.com/awadalaa/basra">
+                <div class="pin">
+                    <img src="img/portfolio/proj_basra.png" />
+                    <p> Basra is a popular fishing card game played in Egypt that I played with my grandma growing up. Here is an open source iOS version of the card game.</p>
+                </div>
+                </a>
+            </div>
+            
+            <div class="item">
+              <a href="http://escreen.se">
                 <div class="pin">
                     <img src="img/portfolio/proj_escreen.png" />
                     <p>escreen is a web intervention created as part of a research study with Karolinska Institute in Stockholm, Sweden. The results will provide insight into how such a website can be used independently or as a complement to other healthcare interventions for alcohol and drug abuse.</p>
                 </div>
                 </a>
-                
-                <a href="https://github.com/awadalaa/kinect-ribbon-tuio">
-                <div class="pin">
-                    <img src="img/portfolio/proj_kinect.png" />
-                    <p> This side project for a Stockholm entertainment company was projected on LED tiles 4.26x2.32m on a wall in Stockholm, Sweden.  Using two kinects, hand motion were detected and gesture data was passed over OSC (open sound controller) between two systems to paint ribbons on a wall.</p>
-                </div>
-                </a>
-                
             </div>
-        </div>
-        </div>
+            
+            <div class="item">
+                <div class="pin">
+                    <img src="img/portfolio/proj_ivr.jpg" />
+                    <p>an IVR (interactive voice response) system for patient-centered monitoring, case management, and point-of-care decision support.</p>
+                </div>
+            </div>
+         </div>
+      </div>
+                
+        
     </section>
 
 
@@ -151,7 +178,27 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
 
+    <script>
+    
+    var container = document.querySelector('#portfolio-container');
+    var msnry = new Masonry( container, {
+      // options
+      columnWidth: 200,
+      itemSelector: '.item'
+    });
+            
+    </script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <script src="js/jquery.masonry.min.js"></script>
+  <script src="js/script.js"></script>
+    
 </body>
+
+
 
 </html>
