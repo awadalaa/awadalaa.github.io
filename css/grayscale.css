@@ -4,6 +4,7 @@ body {
     font-family: 'Lato',"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #000;
     background-color: #F5F5F5;
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
 html {
@@ -294,38 +295,6 @@ a:focus {
 }
 
 
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background-color: #25567b;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-#map {
-    width: 100%;
-    height: 200px;
-    margin-top: 100px;
-}
-
-@media(min-width:767px) {
-    .content-section {
-        padding-top: 150px;
-    }
-
-    .download-section {
-        padding: 100px 0;
-    }
-
-    #map {
-        height: 400px;
-        margin-top: 250px;
-    }
-}
-
 .btn {
     text-transform: uppercase;
     font-family: 'Lato',"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -396,17 +365,75 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
+
+/*#################################################################
+####                    PORTFOLIO SECTION
+##################################################################*/
+#wrapper {
+	width: 100%;
+	max-width: 1100px;
+	min-width: 800px;
+	margin: 50px auto;
 }
 
-
-#project_img {
--moz-border-radius: 5px;
-border-radius: 5px;
--moz-box-shadow: 0 0 5px #888;
--webkit-box-shadow: 0 0 5px#888;
-box-shadow: 0 0 5px #888;
-font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+#columns {
+	-webkit-column-count: 4;
+	-webkit-column-gap: 10px;
+	-webkit-column-fill: auto;
+	-moz-column-count: 4;
+	-moz-column-gap: 10px;
+	-moz-column-fill: auto;
+	column-count: 4;
+	column-gap: 15px;
+	column-fill: auto;
 }
 
+.pin {
+	display: inline-block;
+	background: #FEFEFE;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 2px 15px;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	padding-bottom: 5px;
+	background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+	opacity: 1;
+	
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+.pin img {
+	width: 100%;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+
+.pin p {
+	font: 12px/18px Arial, sans-serif;
+	color: #333;
+	margin: 0;
+}
+
+@media (min-width: 960px) {
+	#columns {
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+		column-count: 3;
+	}
+}
+
+@media (min-width: 1100px) {
+	#columns {
+		-webkit-column-count: 4;
+		-moz-column-count: 4;
+		column-count: 4;
+	}
+}
+
+#columns:hover .pin:not(:hover) {
+	opacity: 0.4;
+}
