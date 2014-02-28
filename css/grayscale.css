@@ -462,16 +462,21 @@ p.tags{
     background-color:#28c3ab;
     -moz-border-radius: 0 0 15px 15px;
     border-radius: 0 0 15px 15px;
+    
+          
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+    
 }
 
 
 .pin:hover > p.tags {
-  background-color:#A2C
+  background-color:#A2C;
+  font-size:14px;
 }
 
-.item:hover {
- width:305px;
-}
 /*
 #content:hover .pin:not(:hover) {
 	opacity: 0.4;
