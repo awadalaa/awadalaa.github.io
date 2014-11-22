@@ -1,3 +1,3 @@
 awadalaa.github.io
 =========
-test marketing site for a commutr app
+I'm a software developer. See my work. Download my resume. Chat with me. Open to collaboration on side projects
