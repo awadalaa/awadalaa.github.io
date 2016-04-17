@@ -128,7 +128,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #f5f5f5;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/intro.jpeg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -148,7 +148,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #f5f5f5;
-    background: url(../img/intro-bg1.jpg) no-repeat bottom center scroll;
+    background: url(../img/intro-bg.png) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
