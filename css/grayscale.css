@@ -471,18 +471,8 @@ p.tags{
     
 }
 
-
 .pin:hover > p.tags {
   background-color:#A2C;
   font-size:14px;
 }
-
-/*
-#content:hover .pin:not(:hover) {
-	opacity: 0.4;
-}*/
-
-
-/********/
-
 
